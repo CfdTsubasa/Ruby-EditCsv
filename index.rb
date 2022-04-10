@@ -19,7 +19,7 @@ def input_file_name
     if memo_type == 1
       edit_csv(file_name, 'w', '内容を記入してください')
     elsif memo_type == 2
-      edit_csv(file_name, 'a', '追記する内容を記入してください')
+      edit_csv(file_name, 'a', '編集する内容を記入してください')
     end
   else
     puts '※ 1または2を入力してください'
